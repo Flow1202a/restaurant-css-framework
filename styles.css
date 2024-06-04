@@ -1,0 +1,68 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar{
+    background-color: #a2bcef;
+    height: 80px;
+}
+.navbar-brand{
+    color: black;
+}
+.navbar-brand:hover{
+    color: #666777;
+    transition: 0.3s color;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color:#666777;
+    position: relative;
+}
+.nav-link:hover, .nav-link:active{
+    color: black;
+}
+@media (min-width: 991px) {
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #1c45a4;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+.navbar .container-fluid img{
+    height: 40px;
+}
+
+.jumbotron button{
+    background-color: #a2bcef;
+}
+section{
+    background-color: #1c45a4;
+}
+.logoFooter{
+    height: 40px;
+    width: 40px;
+}
+.card-img, .card-img-bottom, .card-img-top{
+    height: 634px;
+    width: 634px;
+}
