@@ -47,6 +47,7 @@ body{
         width: 100%;
         visibility: visible;
     }
+
 }
 .navbar .container-fluid img{
     height: 40px;
@@ -63,6 +64,29 @@ section{
     width: 40px;
 }
 .card-img, .card-img-bottom, .card-img-top{
-    height: 634px;
-    width: 634px;
+    height: 454px;
 }
+.card:hover img{
+    transition: 0.1s ease-in-out;
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 990px){
+    .card-img, .card-img-bottom, .card-img-top{
+        height: auto;
+        width: auto;
+    }
+}
+
+.bg-body-tertiary{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    color: #dac6c6;
+}
+
+.\.logoFood img:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(2) ;
+}
+
