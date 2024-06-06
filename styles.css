@@ -75,6 +75,9 @@ section{
     transition: 0.1s ease-in-out;
     transform: scale(0.95);
 }
+.card img{
+    object-fit: cover;
+}
 
 @media screen and (max-width: 990px){
     .card-img, .card-img-bottom, .card-img-top{
@@ -84,7 +87,7 @@ section{
 }
 
 .bg-body-tertiary{
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.webp");
     background-position: center;
     background-attachment: fixed;
     color: #dac6c6;
@@ -95,7 +98,7 @@ section{
     transform: scale(2) ;
 }
 .\.menuJumbo{
-    background-image: url("images/background2.jpg");
+    background-image: url("images/background2.webp");
     background-position: center;
     background-attachment: fixed;
     color: #dac6c6;
