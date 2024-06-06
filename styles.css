@@ -2,6 +2,8 @@ a{
     text-decoration: none;
 }
 body{
+    margin: 0;
+    padding: 0;
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
@@ -99,4 +101,40 @@ section{
     color: #dac6c6;
     background-size: auto;
 }
+.\.imgPagi img{
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    object-fit: cover;
 
+}
+.\.imgPagi{
+    width: 350px;
+    height: 350px;
+}
+.\.imgPagi img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(0.9) ;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px){
+
+    .\.imgPagi{
+        width: 300px;
+        height: 300px;
+    }
+
+    .\.imgPagi img{
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .container .rowww{
+        flex-direction: column;
+
+    }
+}
