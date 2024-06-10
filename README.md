@@ -11,7 +11,8 @@
 	 - Pictures cette page met en avant nos restaurant grâce a de beau clichés.
 	 - Restaurant ici nous avons accès aux informations de nos chaines de restaurant.
 	 - Contact sur cette page il y a un formulaire a compléter.
-
+    
+- le code se trouve sur la branche gh-pages
 -----------------
 [Mon site](https://flow1202a.github.io/restaurant-css-framework/)
 
