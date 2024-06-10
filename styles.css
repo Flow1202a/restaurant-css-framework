@@ -1,5 +1,9 @@
-a{
+a , li{
     text-decoration: none;
+    list-style: none;
+}
+i{
+    color: black;
 }
 body{
     margin: 0;
@@ -7,6 +11,8 @@ body{
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
+    height: 100%;
+    width: 100%;
 }
 .navbar{
     background-color: #a2bcef;
@@ -143,12 +149,34 @@ section{
 }
 
 .containContact .colMain{
-    background-image: url("images/background.webp");
     border: solid #8ca7d0;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
 }
 form {
     padding: 15px;
 }
+.aside{
+    background-image: url("images/photo1.webp");
+    border-radius: 7px;
+}
+iframe{
+    width: 600px;
+    height: 600px;
+    border-radius:10px;
+}
+
+@media screen and (max-width : 1200px){
+    iframe{
+        width: 400px;
+        height: 600px;
+    }
+}
+@media screen and (max-width : 900px){
+    iframe{
+        width: 300px;
+        height: 600px;
+    }
+}
+
+

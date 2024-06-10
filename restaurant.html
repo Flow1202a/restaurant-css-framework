@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <img src="images/logo2.webp" class="navbar-brand">
+        <a class="navbar-brand" href="index.html">myRestaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Faites votre choix !</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="pictures.html">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2 active" href="restaurant.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="jumbotron .menuJumbo p-5 mb-4 bg-body-tertiary rounded-3">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold">myRestaurant qui sommes nous ?</h1>
+            <p class="col-md-8 fs-4">Le restaurant belge "myRestautant" a su séduire les gourmets en proposant une fusion unique des cuisines européennes. Ayant débuté comme un établissement intime à Bruxelles, il est devenu une chaîne renommée avec trois restaurants à travers la Belgique. Chaque plat reflète l'harmonie des saveurs et des traditions culinaires de tout le continent.</p></p>
+            <button class="btn  btn-lg" type="button"><a href="contact.html">Nous contacter</a></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-8" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.8635511104367!2d4.869812711489202!3d50.463041741123945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1990b4f07a60f%3A0x12c95828dee8d8fa!2sHan%20Burger!5e0!3m2!1sfr!2sbe!4v1718022527048!5m2!1sfr!2sbe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-5 col-sm-4  d-flex flex-column justify-content-around align-items-center card " >
+                <div class="adresses">
+                    <h1>Nos adresses</h1>
+                    <ul>
+                        <p><i class="bi bi-geo-alt" style="color: black">Rue Bas de la place n°27</i></p>
+                        <p><i class="bi bi-geo-alt">Avenue sergent Vrithoff n°24</i></p>
+                        <p><i class="bi bi-geo-alt">Rue hector fontaine n°31</i></p>
+                    </ul>
+                </div>
+
+                <div class="horaire">
+                    <h1>Nos horaires</h1>
+                    <ul>
+                        <p>Dù Lundi au vendredi de 11h à 22h</p>
+                        <p>Samedi de 11h à 23h</p>
+                        <p>Dimanche fermé </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted">© 2024 myRestaurant, Inc</p>
+
+                <img src="images/logo2.webp" class="logoFooter col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0  link-dark text-decoration-none" alt="photo du logo">
+
+                <ul class="nav col-md-4  justify-content-end">
+                    <li class="nav-item active"><a href="index.html" class="nav-link px-2 text-muted">Welcome</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link px-2 text-muted">Menu</a></li>
+                    <li class="nav-item"><a href="pictures.html" class="nav-link px-2 text-muted">Pictures</a></li>
+                    <li class="nav-item"><a href="restaurant.html" class="nav-link px-2 text-muted active">Restaurant</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+</body>
+
+</html>
